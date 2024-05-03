@@ -14,7 +14,7 @@ const Banner = () => {
                             setGrp(prev => !prev)
                         }}
                     >
-                        <p className='text-white font-light text-sm'>{grp ? 'Join Group' : "Leave Group"}</p>
+                        <p className='text-white font-light text-sm'>{!grp ? 'Join Group' : "Leave Group"}</p>
                     </div>
                 </div>
 
